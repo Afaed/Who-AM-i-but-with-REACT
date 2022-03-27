@@ -5,26 +5,23 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import './App.css';
-import Projects from './components/Projects';
+import Projects from './Projects';
+import Contact from './components/Contact';
 
 function App() {
  
   return (
-    <div>
-      <Nav>
+  <div>
+  <Header />
 
-      </Nav>
+<div> 
 
-      <div className='Header'>
-      <Header>
-
-</Header>
 </div>
       <main>
         <About>
 
         </About>
-
+        <Contact />
         <Projects>
           
         </Projects>

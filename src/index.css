@@ -212,3 +212,8 @@ img:hover {
 .footer p{
   color: var(--text)
 }
+
+.Contact-me {
+  --bordercolor: #ffd700;
+  
+}
