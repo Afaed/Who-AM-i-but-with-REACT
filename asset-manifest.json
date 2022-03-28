@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Afaed/Who-AM-i-but-with-REACT/static/css/main.3e2fe7e0.css",
+    "main.js": "/Afaed/Who-AM-i-but-with-REACT/static/js/main.6b050f0e.js",
+    "static/js/787.f18ec7fe.chunk.js": "/Afaed/Who-AM-i-but-with-REACT/static/js/787.f18ec7fe.chunk.js",
+    "static/media/tech.jpg": "/Afaed/Who-AM-i-but-with-REACT/static/media/tech.d207a8e57c6483cce868.jpg",
+    "static/media/hero.jpeg": "/Afaed/Who-AM-i-but-with-REACT/static/media/hero.7f836ee2b7b5bdf91368.jpeg",
+    "index.html": "/Afaed/Who-AM-i-but-with-REACT/index.html",
+    "main.3e2fe7e0.css.map": "/Afaed/Who-AM-i-but-with-REACT/static/css/main.3e2fe7e0.css.map",
+    "main.6b050f0e.js.map": "/Afaed/Who-AM-i-but-with-REACT/static/js/main.6b050f0e.js.map",
+    "787.f18ec7fe.chunk.js.map": "/Afaed/Who-AM-i-but-with-REACT/static/js/787.f18ec7fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e2fe7e0.css",
+    "static/js/main.6b050f0e.js"
+  ]
+}
