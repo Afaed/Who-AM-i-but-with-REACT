@@ -11,8 +11,8 @@ function Nav (props) {
     
     return (
         <nav>
-            <ul>
-                <li className = {contactSelected && 'nanActive'}>
+            <ul className="flex-row">
+                <li className = {contactSelected && 'navActive'}>
                     <span onClick = {() => setContactSelected(true)}>
                     </span>
                     < a data-testid = "contact" href ="#Contact-Me">Contact-me</a>
@@ -20,9 +20,18 @@ function Nav (props) {
                 <li> 
                     <a data-testid = "about" href="#About-Me" onClick = {() => setContactSelected(false)}>About Me!</a>
                 </li>
-                <li>
-                    <a href="#Selected-Works">Selected Works</a>
+                <li className = {contactSelected && 'navActive'} key = {category.name}>
+                    <a data-testid = "selected" href="#Selected-Works" onClick = {() => setContactSelected(false)}>
+                    <span onCLick = {currentCategory.name === category.name && !contactSelected && 'navActive'}>
+                    </span>
+                    Selected Works</a>
                 </li>
+                <span
+                onClick={() => {
+                  setCurrentCategory(category);
+                  setContactSelected(false);
+                }}
+              ></span>
             </ul>
         </nav>
 

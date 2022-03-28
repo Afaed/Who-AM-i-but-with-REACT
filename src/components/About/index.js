@@ -1,11 +1,9 @@
 import React from 'react';
-import coverImage from '../../assets/images/hero.jpg'
-
+import coverImage from '../../assets/images/hero.jpeg'
+import Contact from '../Contact'
 function About() {
        return (
-              <div>
-                     <div className="hero">
-                     </div>
+               <div className='hero'>
                      <div class="box1">
                             <div className="flex-row">
                                    <div id="About-Me">
@@ -21,9 +19,12 @@ function About() {
                                           <p>Thank you so much for visiting my website! Please stick around and checkout my <a href="#Selected-Works">Selected works</a>!
                                           </p>
                                    </div>
+
                             </div>
+                     < Contact />
               </div>
        </div>
+     
        )
 }
 

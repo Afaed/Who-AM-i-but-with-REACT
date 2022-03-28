@@ -50,12 +50,6 @@ header nav ul li {
   font-size: 22px;
 }
 
-header nav ul li a:hover {
-  color: var(--head);
-  height: 100%;
-  width: auto
-}
-
 header nav {
   margin: 7px 0;
 }
@@ -123,7 +117,7 @@ h3 {
 .box2 {
   border: 5px var(--bordercolor) solid;
   width: auto;
-  bottom: 100px;
+  bottom: auto;
   position: relative;
   background-color: #fffff0;
   top: 45px;
@@ -131,7 +125,7 @@ h3 {
 }
 
 .hero {
-background-image: url("./assets/images/hero.jpg");
+background-image: ("../../public/assets/images/hero.jpeg");
 width: 550px;
 height: 550px;
 border-width: 1px;
@@ -210,10 +204,6 @@ img:hover {
 }
 
 .footer p{
-  color: var(--text)
-}
-
-.Contact-me {
-  --bordercolor: #ffd700;
-  
+  color: var(--text);
+  border:  10px 10px 10px 10px;
 }

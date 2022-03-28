@@ -7,12 +7,11 @@ function Footer() {
         <p>
           <strong>My Full Stack Development Portfolio</strong> - a React site by{" "}
           <a href="https://github.com/Afaed" target="_blank" rel="noreferrer">
-            Justin Par Choy
+            github
           </a>
-          .
           <hr />
           <a
-            href="https://www.linkedin.com/in/justinchoy/"
+            href="https://www.linkedin.com/in/justin-choy-9341a1146/"
             target="_blank" rel="noreferrer"
           >
             LinkedIn
